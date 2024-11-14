@@ -9,8 +9,8 @@ env/
 venv/
 ENV/
 .venv/
-.txt
-.jpg
+*.txt
+*.jpg
 
 # IDEs and editors
 .vscode/
