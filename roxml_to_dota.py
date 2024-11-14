@@ -130,9 +130,9 @@ def totxt(xml_path, out_path):
 
 if __name__ == '__main__':
     # -----**** 第一步：把xml文件统一转换成旋转框的xml文件 ****-----
-    roxml_path = "./datasets/dota/train/annotations/"  # 目录下保存的是需要转换的xml文件
-    dotaxml_path = './datasets/dota/train/dotaxml/'
-    out_path = './datasets/dota/train/labelTxt/'
+    roxml_path = "E://14//project//xml//"  # 目录下保存的是需要转换的xml文件
+    dotaxml_path = 'E://14//project//txt//'
+    out_path = 'E://14//project//out//'
     filelist = os.listdir(roxml_path)
     for file in filelist:
         edit_xml(os.path.join(roxml_path, file), os.path.join(dotaxml_path, file))
